@@ -18,3 +18,22 @@
 ```
     npm run dev
 ```
+
+
+
+### Setup instructions for tailwind
+
+[ Tailwind official instruction doc](https://tailwindcss.com/docs/installation/tailwind-cli)
+
+1. Install tailwind CSS
+```
+    npm install tailwindcss @tailwindcss/cli
+```
+2. Import  Tailwind into the CSS file `index.css`
+```
+    @import "tailwindcss"
+```
+3. Start the Tailwind CLI build process-Run the CLI tool to scan your source files for classes and build your CSS.
+```
+    npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+```
