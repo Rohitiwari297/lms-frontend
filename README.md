@@ -27,7 +27,7 @@
 
 1. Install tailwind CSS
 ```
-    npm install tailwindcss @tailwindcss/cli
+    npm install tailwindcss @tailwindcss/cli postcss autoprefixer
 ```
 2. Import  Tailwind into the CSS file `index.css`
 ```
